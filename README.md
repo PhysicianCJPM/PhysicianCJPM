@@ -9,7 +9,7 @@
 ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝ ╚═════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═════╝  ╚════╝ ╚═╝     ╚═╝     ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Laravel+%2B+React+Developer;Computer+Engineering+%40+DLSU;Building+cool+stuff%2C+one+commit+at+a+time+🚀;Always+learning%2C+always+shipping+⚡)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=fecd08&center=true&vCenter=true&width=600&lines=Laravel+%2B+React+Developer;Computer+Engineering+%40+DLSU;Building+idk+hopefully%2C+good+proj+one+push+at+a+time+🚀;Always+maybe+learning%2C+always+maybe+shipping+⚡)](https://git.io/typing-svg)
 
 </div>
 
@@ -35,50 +35,66 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=350&lines=%E2%9A%A1+Tech+Stack" alt="Tech Stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=fecd08&center=true&vCenter=true&width=350&lines=%E2%9A%A1+Tech+Stack" alt="Tech Stack" />
 
-  <table width="100%" border="0" cellspacing="5" cellpadding="8">
+  <table width="100%" border="0" cellspacing="10" cellpadding="8">
     <tr align="center">
-      <th>🖥️ Languages</th>
-      <th>🚀 Frameworks & Libraries</th>
+      <th width="50%">🖥️ Languages</th>
+      <th width="50%">🚀 Frameworks & Libraries</th>
+    </tr>
+    <tr align="center">
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JS" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" style="padding: 13px;" />
+        </div>
+      </td>
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" height="40" alt="Laravel" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" height="40" alt="Django" style="padding: 13px;" />
+        </div>
+      </td>
+    </tr>
+    <tr align="center">
       <th>🗄️ Databases</th>
-    </tr>
-    <tr align="center">
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JS" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" style="padding: 13px;" />
-      </td>
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" height="40" alt="Laravel" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" height="40" alt="Django" style="padding: 13px;" />
-      </td>
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" style="padding: 13px;" />
-      </td>
-    </tr>
-    <tr align="center">
       <th>⚙️ DevOps & CI/CD</th>
+    </tr>
+    <tr align="center">
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" style="padding: 13px;" />
+        </div>
+      </td>
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="40" height="40" alt="K8s" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GHA" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" style="padding: 13px;" />
+        </div>
+      </td>
+    </tr>
+    <tr align="center">
       <th>🤖 AI / ML</th>
       <th>🔩 Hardware</th>
     </tr>
     <tr align="center">
       <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="40" height="40" alt="K8s" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GHA" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" style="padding: 13px;" />
+        <div style="white-space: nowrap;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" alt="TF" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="40" height="40" alt="Keras" style="padding: 13px;" />
+        </div>
       </td>
       <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" alt="TF" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="40" height="40" alt="Keras" style="padding: 13px;" />
-      </td>
-      <td>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" alt="Arduino" style="padding: 13px;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="40" height="40" alt="RPi" style="padding: 13px;" />
+        <div style="white-space: nowrap;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" alt="Arduino" style="padding: 13px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="40" height="40" alt="RPi" style="padding: 13px;" />
+        </div>
       </td>
     </tr>
   </table>
