@@ -37,7 +37,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=350&lines=%E2%9A%A1+Tech+Stack" alt="Tech Stack" />
 
-  <table width="100%" border="0" cellspacing="0" cellpadding="8">
+  <table width="100%" border="0" cellspacing="5" cellpadding="8">
     <tr align="center">
       <th>🖥️ Languages</th>
       <th>🚀 Frameworks & Libraries</th>
