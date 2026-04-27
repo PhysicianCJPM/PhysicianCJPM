@@ -74,11 +74,19 @@
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" align="middle" style="vertical-align: middle;" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" align="middle" style="vertical-align: middle;" />
+        <table>
+          <tr>
+            <td align="center" valign="middle">
+              <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" />
+            </td>
+            <td align="center" valign="middle">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" />
+            </td>
+          </tr>
+        </table>
       </td>
       <td align="center" valign="middle">
-        <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&perline=2" alt="Arduino, Raspberry Pi" align="middle" style="vertical-align: middle;" />
+        <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&perline=2" alt="Arduino, Raspberry Pi" />
       </td>
     </tr>
   </tbody>
