@@ -100,11 +100,7 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PhysicianCJPM&theme=tokyonight&hide_border=true)
 
-### 🎮 Contribution Tetris
-![Tetris Contributions](./tetris-contributions.gif)
-<br>*(Note: Generated via [gh-contributions-tetris-gif-maker](https://github.com/debba/gh-contributions-tetris-gif-maker))*
-
-### 😱 Me when code breaks in production:
+### 🫠 Pushed Into Production:
 ![Panic Mode](https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif)
 
 </div>
