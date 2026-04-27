@@ -35,69 +35,56 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=fecd08&center=true&vCenter=true&width=350&lines=%E2%9A%A1+Tech+Stack" alt="Tech Stack" />
 
-  <table width="100%" border="0" cellspacing="10" cellpadding="8">
-    <tr align="center">
-      <th width="50%">🖥️ Languages</th>
-      <th width="50%">🚀 Frameworks & Libraries</th>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=fecd08&center=true&vCenter=true&width=350&lines=%E2%9A%A1+Tech+Stack" alt="Tech Stack" />
+
+<br/>
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">🖥️&nbsp;Languages</th>
+      <th align="center">🚀&nbsp;Frameworks &amp; Libraries</th>
     </tr>
-    <tr align="center">
-      <td>
-        <div style="white-space: nowrap;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JS" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" style="padding: 13px;" />
-        </div>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=js,python,java,cs&perline=4" alt="JavaScript, Python, Java, C#" />
       </td>
-      <td>
-        <div style="white-space: nowrap;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" height="40" alt="Laravel" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" height="40" alt="Django" style="padding: 13px;" />
-        </div>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=laravel,react,django&perline=3" alt="Laravel, React, Django" />
       </td>
     </tr>
-    <tr align="center">
-      <th>🗄️ Databases</th>
-      <th>⚙️ DevOps & CI/CD</th>
+    <tr>
+      <th align="center">🗄️&nbsp;Databases</th>
+      <th align="center">⚙️&nbsp;DevOps &amp; CI/CD</th>
     </tr>
-    <tr align="center">
-      <td>
-        <div style="white-space: nowrap;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" style="padding: 13px;" />
-        </div>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=postgres,mysql&perline=2" alt="PostgreSQL, MySQL" />
       </td>
-      <td>
-        <div style="white-space: nowrap;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="40" height="40" alt="K8s" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GHA" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" style="padding: 13px;" />
-        </div>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=docker,kubernetes,github,git&perline=4" alt="Docker, Kubernetes, GitHub Actions, Git" />
       </td>
     </tr>
-    <tr align="center">
-      <th>🤖 AI / ML</th>
-      <th>🔩 Hardware</th>
+    <tr>
+      <th align="center">🤖&nbsp;AI / ML</th>
+      <th align="center">🔩&nbsp;Hardware</th>
     </tr>
-    <tr align="center">
-      <td>
-        <div style="white-space: nowrap;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" alt="TF" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="40" height="40" alt="Keras" style="padding: 13px;" />
-        </div>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=tensorflow&perline=1" alt="TensorFlow" />
+        &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" />
       </td>
-      <td>
-        <div style="white-space: nowrap;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" alt="Arduino" style="padding: 13px;" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="40" height="40" alt="RPi" style="padding: 13px;" />
-        </div>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&perline=2" alt="Arduino, Raspberry Pi" />
       </td>
     </tr>
-  </table>
+  </tbody>
+</table>
+
 </div>
 
 ---
