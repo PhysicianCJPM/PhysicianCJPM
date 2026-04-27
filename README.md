@@ -74,7 +74,7 @@
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://skillicons.dev/icons?i=tensorflow,keras" alt="TensorFlow, Keras" />
+        <img src="https://skillicons.dev/icons?i=tensorflow,keras&perline=2" alt="TensorFlow, Keras" />
       </td>
       <td align="center" valign="middle">
         <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&perline=2" alt="Arduino, Raspberry Pi" />
