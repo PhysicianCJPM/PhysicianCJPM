@@ -15,7 +15,7 @@
 
 ---
 
-## 🧑‍💻 `whoami`
+## 🧑‍💻 `whoami - iamme`
 
 <table width="100%" border="0" cellspacing="0" cellpadding="8">
   <tr align="left">
@@ -111,7 +111,7 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="8">
   <tr align="left">
-    <td width="25%">📅 <b>2026</b></td>
+    <td width="25%">📅 <b>2026 (3 Mos. Internship)</b></td>
     <td><b>React + Laravel Intern</b> @ MEC Networks Corporation</td>
   </tr>
   <tr align="left">
