@@ -157,6 +157,6 @@
 
 _"First, code the solve. Then, write the problem."_ — Me
 
-![Visitor Count](https://komarev.com/ghpvc/?username=PhysicianCJPM&color=00f7ff&style=flat-square&label=Profile+Views)
+![Visitor Count](https://komarev.com/ghpvc/?username=PhysicianCJPM&color=280137&style=flat-square&label=Profile+Views)
 
 </div>
