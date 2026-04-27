@@ -155,7 +155,7 @@
 
 <div align="center">
 
-_"First, solve the problem. Then, write the code."_ — John Johnson
+_"First, code the solve. Then, write the problem."_ — Me
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=PhysicianCJPM&color=00f7ff&style=flat-square&label=Profile+Views)
 
