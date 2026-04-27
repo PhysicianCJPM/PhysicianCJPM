@@ -73,10 +73,10 @@
       <th align="center">🔩&nbsp;Hardware</th>
     </tr>
     <tr>
-      <td align="center">
-        <table><tr>
-          <td align="center"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" /></td>
-          <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" /></td>
+      <td align="center" style="border: none;">
+        <table border="0" cellpadding="0" cellspacing="0" style="border: none; border-collapse: collapse;"><tr>
+          <td align="center" style="border: none;"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" /></td>
+          <td align="center" style="border: none;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" /></td>
         </tr></table>
       </td>
       <td align="center">
