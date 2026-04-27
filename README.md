@@ -73,12 +73,12 @@
       <th align="center">🔩&nbsp;Hardware</th>
     </tr>
     <tr>
-      <td align="center" style="border: none;">
-        <table border="0" cellpadding="0" cellspacing="0" style="border: none; border-collapse: collapse;"><tr>
-          <td align="center" style="border: none;"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" /></td>
-          <td align="center" style="border: none;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" /></td>
-        </tr></table>
-      </td>
+      <td align="center">
+  <table border="0" cellpadding="0" cellspacing="0"><tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" /></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" title="Keras" /></td>
+  </tr></table>
+</td>
       <td align="center">
         <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&perline=2" alt="Arduino, Raspberry Pi" />
       </td>
@@ -108,7 +108,7 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="8">
   <tr align="left">
-    <td width="25%">📅 <b>2026 (3 Mos. Internship)</b></td>
+    <td width="25%">📅 <b>2026 (3 MTHs. Internship)</b></td>
     <td><b>React + Laravel Intern</b> @ MEC Networks Corporation</td>
   </tr>
   <tr align="left">
