@@ -88,18 +88,32 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics & Engineering Specifications
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" />
 
-  <br/><br/>
+<!-- ISO/IEC 25010: Product Quality -->
+<img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="GitHub Stats" />
 
-  <h3>🫠 Pushed Into Production:</h3>
-  <img src="https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif" width="600" alt="Panic Mode" />
+<br/>
+
+<!-- IEEE 1012: Verification and Validation -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages" />
+<!-- IEEE 730: Software Quality Assurance -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
+
+<br/><br/>
+
+| Specification | Standard | Operational Status |
+| :--- | :--- | :--- |
+| **Code Logic** | ISO/IEC TR 12182 | `NOMINAL` |
+| **System Stress** | IEEE 829 | `STABLE` |
+| **Production Environment** | ISO/IEC 14764 | `CHAOTIC` |
+
+<br/>
+
+<h3>🫠 FATAL_ERROR: Production Push In Progress</h3>
+<img src="https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif" width="600" alt="Panic Mode" />
 </div>
 
 ---
