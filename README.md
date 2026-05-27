@@ -91,7 +91,6 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="Calee's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" />
 
