@@ -91,12 +91,15 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" />
 
-### 🫠 Pushed Into Production:
-![Panic Mode](https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif)
+  <br/><br/>
 
+  <h3>🫠 Pushed Into Production:</h3>
+  <img src="https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif" width="600" alt="Panic Mode" />
 </div>
 
 ---
