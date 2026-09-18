@@ -1,7 +1,9 @@
 {
-  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "moves": [],
+  "fen": "rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+  "moves": [
+    "g2g4"
+  ],
   "game_number": 1,
-  "last_player": "",
+  "last_player": "PhysicianCJPM",
   "status": "active"
 }
