@@ -1,0 +1,46 @@
+name: Chess Move
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-move:
+    if: startsWith(github.event.issue.title, 'chess|move|')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r chess_game/requirements.txt
+
+      - name: Process chess move
+        env:
+          MOVE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+        run: python chess_game/chess_engine.py "$MOVE" "$ISSUE_AUTHOR"
+
+      - name: Commit updated board
+        run: |
+          git config user.name "Chess Bot ♟️"
+          git config user.email "actions@github.com"
+          git add README.md chess_game/game_state.json chess_game/games/
+          git diff --cached --quiet || git commit -m "♟️ Chess move: ${{ github.event.issue.title }}"
+          git push
+
+      - name: Close issue with confirmation
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: |
+            ♟️ **Move processed!** Check the [updated board](https://github.com/${{ github.repository }}).
+
+            *Played by @${{ github.event.issue.user.login }}*
