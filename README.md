@@ -100,19 +100,72 @@ $ cat /etc/physician.conf
 
 ## 📊 `tail -f /var/log/system_diagnostics.log`
 
-<div align="center">
+### 📋 `cat /etc/best-practices.conf`
 
-<img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=percentile&include_all_commits=true" height="180" alt="GitHub Stats" />
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
+```ini
+# ============================================================
+#  /etc/best-practices.conf — PhysicianCJPM Engineering Standards
+#  Last modified: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+# ============================================================
+
+[coding_standards]
+style_guide         = "PSR-12 / Airbnb"          # PHP follows PSR-12, JS follows Airbnb
+type_safety         = STRICT                      # TypeScript strict mode, PHP strict_types=1
+linting             = ENFORCED                    # ESLint + Prettier + PHP_CodeSniffer on every save
+naming_convention   = "camelCase:vars | PascalCase:classes | snake_case:db_columns"
+max_function_length = 30                          # If it doesn't fit on screen, refactor it
+comments            = "WHY, not WHAT"             # Code tells you what; comments tell you why
+dead_code           = PURGE_ON_SIGHT              # No commented-out blocks in production
+
+[version_control]
+branching_model     = "GitFlow"                   # main → develop → feature/* | hotfix/*
+commit_format       = "Conventional Commits"      # feat: | fix: | refactor: | docs: | chore:
+pr_review           = REQUIRED                    # No merge without at least 1 approval
+rebase_before_merge = true                        # Keep history linear and readable
+squash_wip_commits  = true                        # Clean up "wip" and "fix typo" noise
+
+[testing]
+unit_tests          = MANDATORY                   # Every service & utility must have tests
+coverage_threshold  = 80%                         # CI blocks merge if coverage drops below 80%
+integration_tests   = ON_PR                       # Run integration suite on every pull request
+e2e_tests           = PRE_DEPLOY                  # Cypress / Playwright before production push
+test_naming         = "should_[action]_when_[condition]"
+
+[security]
+secrets_management  = "ENV_VARS | Vault"          # Never hardcode secrets — .env or HashiCorp Vault
+dependency_audit    = WEEKLY                      # npm audit + composer audit on schedule
+input_validation    = SERVER_SIDE_ALWAYS           # Client-side is UX; server-side is security
+auth_standard       = "OAuth 2.0 + JWT"           # Stateless auth with refresh token rotation
+sql_injection       = "Eloquent ORM / parameterized queries ONLY"
+cors_policy         = WHITELIST                   # Explicit origin whitelist, never wildcard in prod
+
+[documentation]
+readme_required     = true                        # Every repo ships with a README
+api_docs            = "OpenAPI 3.0 / Swagger"     # Auto-generated from annotations
+changelog           = "CHANGELOG.md"              # Keep a running changelog (Keep a Changelog format)
+architecture_docs   = "docs/architecture.md"      # High-level system diagrams & decisions (ADRs)
+onboarding_guide    = "docs/CONTRIBUTING.md"      # So new devs aren't lost on day one
+
+[deployment]
+strategy            = "Blue-Green | Rolling"      # Zero-downtime deploys
+ci_cd_pipeline      = "GitHub Actions"            # Lint → Test → Build → Deploy
+containerization    = "Docker + Docker Compose"   # Consistent environments from dev to prod
+infra_as_code       = "Terraform / K8s manifests" # Infrastructure is version-controlled
+rollback_plan       = ALWAYS_READY                # One-click rollback or auto-rollback on failure
+
+[monitoring]
+logging             = "Structured JSON (ELK)"     # Centralized, searchable, parseable logs
+error_tracking      = "Sentry"                    # Real-time exception tracking with source maps
+uptime_monitoring   = "UptimeRobot / Healthchecks"# Ping endpoints every 60s
+alerting            = "PagerDuty | Slack webhook" # Get notified before users notice
+performance         = "Laravel Telescope | React Profiler"
+
+# ============================================================
+#  EOF — "If it's not automated, it's not done."
+# ============================================================
+```
 
 <br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" alt="Top Languages" />
-&nbsp;
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PhysicianCJPM&theme=tokyo-night&hide_border=true&area=true" height="180" alt="Activity Graph" />
-
-<br/><br/>
 
 ### ⚙️ `systemctl status engineer.service`
 
