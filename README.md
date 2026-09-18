@@ -98,36 +98,43 @@ $ cat /etc/physician.conf
 
 ---
 
-## 📊 `cat /var/log/github_analytics.log`
+## 📊 `tail -f /var/log/system_diagnostics.log`
 
 <div align="center">
 
-<!-- ISO/IEC 25010: Product Quality -->
-<img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=PhysicianCJPM&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=percentile&include_all_commits=true" height="180" alt="GitHub Stats" />
 &nbsp;
-<!-- IEEE 1012: Verification and Validation -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 
 <br/>
 
-<!-- IEEE 730: Software Quality Assurance -->
-<img src="https://github-readme-streak-stats.herokuapp.com?user=PhysicianCJPM&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=PhysicianCJPM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" alt="Top Languages" />
+&nbsp;
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PhysicianCJPM&theme=tokyo-night&hide_border=true&area=true" height="180" alt="Activity Graph" />
 
 <br/><br/>
 
-### ⚙️ Engineering Specifications
+### ⚙️ `systemctl status engineer.service`
 
-| Specification | Standard | Operational Status |
-| :--- | :--- | :---: |
-| **Code Logic** | ISO/IEC TR 12182 | `NOMINAL` |
-| **System Stress** | IEEE 829 | `STABLE` |
-| **Production Environment** | ISO/IEC 14764 | `CHAOTIC` |
-| **Coffee Reserves** | RFC 2324 | `CRITICAL` |
+```
+● engineer.service - PhysicianCJPM Runtime Environment
+     Loaded: loaded (/etc/systemd/system/engineer.service; enabled)
+     Active: active (running) since 2021
+```
+
+| Module                     | Standard         |    Status     |
+| :------------------------- | :--------------- | :-----------: |
+| **Code Logic**             | ISO/IEC TR 12182 |  `NOMINAL`   |
+| **System Stress**          | IEEE 829         |   `STABLE`   |
+| **Production Environment** | ISO/IEC 14764    |  `CHAOTIC`   |
+| **Coffee Reserves**        | RFC 2324         | `CRITICAL ⚠` |
+| **Sleep Daemon**           | IEEE 1003.1      | `NOT FOUND`  |
+| **Bug Count**              | ISO/IEC 25010    | `¯\_(ツ)_/¯` |
 
 <br/>
 
-<h3>🫠 FATAL_ERROR: Production Push In Progress</h3>
-<img src="https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif" width="500" alt="Panic Mode" />
+<h3>🫠 FATAL_ERROR: Production Push In Progress — <code>exit code 1</code></h3>
+<img src="https://media1.tenor.com/m/5mW0E4vCSTsAAAAd/leon-leon-s.gif" width="480" alt="Panic Mode" />
 
 </div>
 
@@ -144,28 +151,33 @@ Click any move below to play. It opens a GitHub Issue that the bot processes aut
 <br/>
 
 <!-- BEGIN GAME STATUS -->
+
 🎮 **Game #1** · ⏱️ **Move 0**
+
 <!-- END GAME STATUS -->
 
 <br/>
 
 <!-- BEGIN CHESS BOARD -->
-|   | **a** | **b** | **c** | **d** | **e** | **f** | **g** | **h** |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **8** | ♜ | ♞ | ♝ | ♛ | ♚ | ♝ | ♞ | ♜ |
-| **7** | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ |
-| **6** | · |   | · |   | · |   | · |   |
-| **5** |   | · |   | · |   | · |   | · |
-| **4** | · |   | · |   | · |   | · |   |
-| **3** |   | · |   | · |   | · |   | · |
-| **2** | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ |
-| **1** | ♖ | ♘ | ♗ | ♕ | ♔ | ♗ | ♘ | ♖ |
+
+|       | **a** | **b** | **c** | **d** | **e** | **f** | **g** | **h** |
+| ----- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **8** |   ♜   |   ♞   |   ♝   |   ♛   |   ♚   |   ♝   |   ♞   |   ♜   |
+| **7** |   ♟   |   ♟   |   ♟   |   ♟   |   ♟   |   ♟   |   ♟   |   ♟   |
+| **6** |   ·   |       |   ·   |       |   ·   |       |   ·   |       |
+| **5** |       |   ·   |       |   ·   |       |   ·   |       |   ·   |
+| **4** |   ·   |       |   ·   |       |   ·   |       |   ·   |       |
+| **3** |       |   ·   |       |   ·   |       |   ·   |       |   ·   |
+| **2** |   ♙   |   ♙   |   ♙   |   ♙   |   ♙   |   ♙   |   ♙   |   ♙   |
+| **1** |   ♖   |   ♘   |   ♗   |   ♕   |   ♔   |   ♗   |   ♘   |   ♖   |
+
 <!-- END CHESS BOARD -->
 
 <!-- BEGIN GAME RESULT -->
 <!-- END GAME RESULT -->
 
 <!-- BEGIN MOVES LIST -->
+
 **White to move** — Click a move to play:
 
 [`Na3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cb1a3&body=I%27m%20making%20the%20move%20**Na3**%20%28b1a3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`Nc3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cb1c3&body=I%27m%20making%20the%20move%20**Nc3**%20%28b1c3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`Nf3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cg1f3&body=I%27m%20making%20the%20move%20**Nf3**%20%28g1f3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`Nh3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cg1h3&body=I%27m%20making%20the%20move%20**Nh3**%20%28g1h3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`a3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Ca2a3&body=I%27m%20making%20the%20move%20**a3**%20%28a2a3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`a4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Ca2a4&body=I%27m%20making%20the%20move%20**a4**%20%28a2a4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`b3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cb2b3&body=I%27m%20making%20the%20move%20**b3**%20%28b2b3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`b4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cb2b4&body=I%27m%20making%20the%20move%20**b4**%20%28b2b4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*)
@@ -173,6 +185,7 @@ Click any move below to play. It opens a GitHub Issue that the bot processes aut
 [`c3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cc2c3&body=I%27m%20making%20the%20move%20**c3**%20%28c2c3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`c4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cc2c4&body=I%27m%20making%20the%20move%20**c4**%20%28c2c4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`d3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cd2d3&body=I%27m%20making%20the%20move%20**d3**%20%28d2d3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`d4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cd2d4&body=I%27m%20making%20the%20move%20**d4**%20%28d2d4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`e3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Ce2e3&body=I%27m%20making%20the%20move%20**e3**%20%28e2e3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`e4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Ce2e4&body=I%27m%20making%20the%20move%20**e4**%20%28e2e4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`f3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cf2f3&body=I%27m%20making%20the%20move%20**f3**%20%28f2f3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`f4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cf2f4&body=I%27m%20making%20the%20move%20**f4**%20%28f2f4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*)
 
 [`g3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cg2g3&body=I%27m%20making%20the%20move%20**g3**%20%28g2g3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`g4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Cg2g4&body=I%27m%20making%20the%20move%20**g4**%20%28g2g4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`h3`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Ch2h3&body=I%27m%20making%20the%20move%20**h3**%20%28h2h3%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*) | [`h4`](https://github.com/PhysicianCJPM/PhysicianCJPM/issues/new?title=chess%7Cmove%7Ch2h4&body=I%27m%20making%20the%20move%20**h4**%20%28h2h4%29.%0A%0A*This%20issue%20will%20be%20automatically%20processed%20and%20closed%20by%20the%20chess%20bot.*)
+
 <!-- END MOVES LIST -->
 
 </div>
